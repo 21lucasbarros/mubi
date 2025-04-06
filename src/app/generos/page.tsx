@@ -1,7 +1,8 @@
 import Header from "@/components/header/header";
 import Section from "@/components/section/section";
+import "@/app/globals.css";
 
-const RockPage = () => {
+const GenerosPage = () => {
   return (
     <>
       <Header />
@@ -40,4 +41,4 @@ const RockPage = () => {
   );
 };
 
-export default RockPage;
+export default GenerosPage;
