@@ -1,0 +1,25 @@
+.section {
+  padding: 2% 15%;
+
+  &__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    &__header {
+      display: flex;
+      gap: 15px;
+      align-items: baseline;
+
+      &__span {
+        font-size: 0.85rem;
+        color: var(--color-beige);
+
+        &:hover {
+          color: var(--color-dark-blue);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
