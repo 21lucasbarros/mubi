@@ -1,0 +1,53 @@
+.footer {
+  padding: 4% 10%;
+  background-color: #eaeaea;
+
+  &__conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+
+    &__esquerda {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__logo {
+        width: 120px;
+      }
+
+      &__social {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        a {
+          text-decoration: none;
+          color: var(--color-black);
+        }
+
+        &__redes {
+          display: flex;
+          gap: 8px;
+
+          & i {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    &__centro__links,
+    &__direita__links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      &_link {
+        list-style: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
