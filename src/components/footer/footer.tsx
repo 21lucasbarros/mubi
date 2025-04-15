@@ -18,22 +18,46 @@ export default function Footer() {
                 Siga-nos no
               </p>
               <div className={style.footer__conteudo__esquerda__social__redes}>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-instagram-line" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-facebook-circle-fill" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-tiktok-fill" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-twitter-x-fill" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-threads-fill" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/21lucasbarros/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-youtube-fill" />
                 </a>
               </div>
