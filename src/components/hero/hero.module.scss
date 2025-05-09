@@ -42,6 +42,7 @@
       &__button {
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 15px;
 
         &__watch {
@@ -49,7 +50,7 @@
           background-color: #fff;
           color: #000;
           border: none;
-          border-radius: 1rem;
+          border-radius: 2rem;
           font-size: 1.2rem;
           font-weight: bold;
           cursor: pointer;
@@ -66,23 +67,38 @@
           &:hover {
             background-color: var(--color-dark-blue);
             color: var(--mubiBranco);
-            font-size: 1.4rem;
           }
         }
 
         &__playlist {
-          padding: 10px 20px;
+          width: 32px;
+          height: 32px;
+          padding: 0;
           background-color: transparent;
           color: #fff;
           border: 1px solid #fff;
-          border-radius: 1rem;
+          border-radius: 50%;
           font-size: 1.2rem;
           font-weight: bold;
           cursor: pointer;
           display: flex;
           align-items: center;
           justify-content: center;
-          transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+          transition: all 0.3s ease;
+
+          i {
+            color: inherit;
+            transition: inherit;
+          }
+
+          &:hover {
+            background-color: #fff;
+            color: #000;
+
+            i {
+              color: inherit;
+            }
+          }
         }
       }
     }
